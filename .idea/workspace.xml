@@ -1,0 +1,1045 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2d6ba5d1-edfb-4c01-b83e-a660bfa4d9b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_10_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_6_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/sun/proxy/$Proxy0.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jvm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/classload/ClassResolveTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/classload/ClinitOrderTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/classload/ClinitOrderTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/classload/SychronizedClinitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/collection/SublistTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/gc/FinalizeEscapeGCTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/gc/MutualReferenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/init/Father.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/init/InitOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/init/Son.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/memoryAllocation/MemoryAllocationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/outOfMemoryError/DirectMemoryOOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/outOfMemoryError/HeapOOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/outOfMemoryError/JavaMethodAreaOOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/outOfMemoryError/JavaVMStackOOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/outOfMemoryError/JavaVMStackSOF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/outOfMemoryError/RuntimeConstantPoolBehaviorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/outOfMemoryError/RuntimeStringConstantPoolOOM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/proxy/GreetingRobot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/proxy/GreetingRobotImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/proxy/GreetingRobotInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/proxy/GreetingRobotTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/runtime/InvokeSuperStaticTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/runtime/SlotReuseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/syntacticSugar/GenericWildcardTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/syntacticSugar/SyntacticSugarTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/jvm.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/classload/ClassResolveTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/classload/ClinitOrderTest1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/classload/ClinitOrderTest2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/classload/F.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/classload/Father.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/classload/Parent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/classload/Son.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/classload/Sub.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/classload/SychronizedClinitTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/classload/SychronizedClinitTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/collection/SublistTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/gc/FinalizeEscapeGCTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/gc/MutualReferenceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/init/Father.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/init/InitOrder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/init/Son.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/memoryAllocation/MemoryAllocationTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/outOfMemoryError/DirectMemoryOOM.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/outOfMemoryError/HeapOOM.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/outOfMemoryError/JavaMethodAreaOOM.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/outOfMemoryError/JavaVMStackOOM.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/outOfMemoryError/JavaVMStackSOF.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/outOfMemoryError/RuntimeConstantPoolBehaviorTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/outOfMemoryError/RuntimeStringConstantPoolOOM.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/proxy/GreetingRobot.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/proxy/GreetingRobotImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/proxy/GreetingRobotInvocationHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/proxy/GreetingRobotTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/runtime/InvokeSuperStaticTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/runtime/SlotReuseTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/runtime/Sub.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/runtime/Super.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/syntacticSugar/GenericWildcardTest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/syntacticSugar/GenericWildcardTest$Apple.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/syntacticSugar/GenericWildcardTest$Food.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/syntacticSugar/GenericWildcardTest$Fruit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/syntacticSugar/GenericWildcardTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/syntacticSugar/SyntacticSugarTest.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>_1MB</find>
+      <find>StringBuilderTester</find>
+      <find>@re</find>
+      <find>&lt;p&gt;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>StringBuilderTest</replace>
+      <replace>&lt;br/&gt;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/collection/sublist.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/collection/SubList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/collection/Sublist.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/syntacticSugar/Sugar.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/byteCode/Son.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/collection/SublistTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/GC/FinalizeEscapeGC.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/GC/MutualReference.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/gc/FinalizeEscapeGC.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/gc/MutualReferenceTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/gc/FinalizeEscapeGCTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/jvmRuntimeSystem/InvokeSuperStatic/InvokeSuperStaticTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/outOfMemoryError/RuntimeStringConstantPoolOOM.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/javap/Son.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/syntacticSugar/SyntacticSugarTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/LoadClass/testInit/testClinitExeOrder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/LoadClass/testInit/ClinitOrder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/LoadClass/testInit/ClinitOrderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/loadClass/testInit/ClinitOrderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/loadClass/testInit/testStaticBlock.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/loadClass/testInit/StaticBlockTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/loadClass/classInitTest/StaticBlockTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/loadClass/classInit/Sub.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/loadClass/classInit/Father.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/loadClass/classInit/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/loadClass/classInitTest/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/jvmRuntimeSystem/invokeSuperStatic/InvokeSuperStaticTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/MemoryAllocation/MemoryAllocation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/MemoryAllocation/MemoryAllocationTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/outOfMemoryError/HeapOOM.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/runtime/InvokeSuperStaticTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/runtime/SlotReuseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/classload/testClinitExeOrder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/classload/testResolve.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/classload/SycronizedClinitTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/classload/SychronizedClinitTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/syntacticSugar/GenericWildcastTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/syntacticSugar/GenericWildcardTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/classload/BlockTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/classload/StaticBlockTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/javap/InitOrder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/classload/ClinitOrderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/classload/ClassResolveTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/classload/ClinitOrderTest2.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/init/InitOrder.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/init/Son.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/proxy/GreetingRobot.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/proxy/GreetingRobotImp.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/proxy/GreetingRobotImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/proxy/GreetingRobotTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/proxy/GreetingRobotInvocationHandler.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="jvm" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="4" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="compare&#9;ACTION&#9;CompareTwoFiles" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Spring&amp;MyBatis/Spring" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.4726776" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/testByteCode/Son.java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="fre.radon" />
+      <recent name="fre.radon.jvm" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Limitless\Dev\JVM\jvm\src\test\java\fre\radon\jvm" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.GreetingRobotTest">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClinitOrderTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fre.radon.jvm.classload.ClinitOrderTest2" />
+      <module name="jvm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fre.radon.jvm.classload.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreetingRobotTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fre.radon.jvm.proxy.GreetingRobotTest" />
+      <module name="jvm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fre.radon.jvm.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RuntimeConstantPoolBehaviorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fre.radon.jvm.outOfMemoryError.RuntimeConstantPoolBehaviorTest" />
+      <module name="jvm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fre.radon.jvm.outOfMemoryError.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericWildcardTest.upperWildcard" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jvm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fre.radon.jvm.syntacticSugar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fre.radon.jvm.syntacticSugar" />
+      <option name="MAIN_CLASS_NAME" value="fre.radon.jvm.syntacticSugar.GenericWildcardTest" />
+      <option name="METHOD_NAME" value="upperWildcard" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreetingRobotTest.testGreetingRobot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jvm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fre.radon.jvm.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fre.radon.jvm.proxy" />
+      <option name="MAIN_CLASS_NAME" value="fre.radon.jvm.proxy.GreetingRobotTest" />
+      <option name="METHOD_NAME" value="testGreetingRobot" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.RuntimeConstantPoolBehaviorTest" />
+      <item itemvalue="Application.ClinitOrderTest2" />
+      <item itemvalue="Application.GreetingRobotTest" />
+      <item itemvalue="JUnit.GenericWildcardTest.upperWildcard" />
+      <item itemvalue="JUnit.GreetingRobotTest.testGreetingRobot" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GreetingRobotTest" />
+        <item itemvalue="JUnit.GreetingRobotTest.testGreetingRobot" />
+        <item itemvalue="Application.ClinitOrderTest2" />
+        <item itemvalue="JUnit.GenericWildcardTest.upperWildcard" />
+        <item itemvalue="Application.RuntimeConstantPoolBehaviorTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2d6ba5d1-edfb-4c01-b83e-a660bfa4d9b7" name="Default Changelist" comment="" />
+      <created>1540090474620</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1540090474620</updated>
+      <workItem from="1540090483652" duration="2413000" />
+      <workItem from="1540896024297" duration="2899000" />
+      <workItem from="1542021584054" duration="1969000" />
+      <workItem from="1542024005800" duration="1461000" />
+      <workItem from="1542025675448" duration="1078000" />
+      <workItem from="1542026811724" duration="627000" />
+      <workItem from="1542027682033" duration="125000" />
+      <workItem from="1542177705433" duration="46000" />
+      <workItem from="1542178056998" duration="486000" />
+      <workItem from="1542178581757" duration="106000" />
+      <workItem from="1542178765139" duration="254000" />
+      <workItem from="1542179059361" duration="1163000" />
+      <workItem from="1542180623323" duration="84000" />
+      <workItem from="1542611312140" duration="7224000" />
+      <workItem from="1543109825361" duration="4813000" />
+      <workItem from="1543558898447" duration="23000" />
+      <workItem from="1543559583762" duration="7003000" />
+      <workItem from="1543587736966" duration="537000" />
+      <workItem from="1543589316059" duration="427000" />
+      <workItem from="1543589808770" duration="48000" />
+      <workItem from="1543589921957" duration="76000" />
+      <workItem from="1543742846211" duration="1431000" />
+      <workItem from="1543751922322" duration="4060000" />
+      <workItem from="1543759508738" duration="2155000" />
+      <workItem from="1543801162641" duration="7239000" />
+      <workItem from="1544111269638" duration="53000" />
+      <workItem from="1544171695424" duration="1190000" />
+      <workItem from="1544502917285" duration="2901000" />
+      <workItem from="1544759054449" duration="2031000" />
+      <workItem from="1545229871290" duration="817000" />
+      <workItem from="1545537286834" duration="43000" />
+      <workItem from="1545537820159" duration="3908000" />
+      <workItem from="1545560123984" duration="132000" />
+      <workItem from="1546096406152" duration="62000" />
+      <workItem from="1546096593674" duration="140000" />
+      <workItem from="1546226374712" duration="539000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SyntacticSugarTest_sugar3 - 2018.12.02 at 21h 20m 54s.xml">
+      <configuration name="SyntacticSugarTest.sugar3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SyntacticSugarTest_sugar3 - 2018.12.02 at 21h 21m 23s.xml">
+      <configuration name="SyntacticSugarTest.sugar3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SyntacticSugarTest_sugar4 - 2018.12.03 at 09h 57m 18s.xml">
+      <configuration name="SyntacticSugarTest.sugar4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SyntacticSugarTest_sugar4 - 2018.12.03 at 09h 57m 35s.xml">
+      <configuration name="SyntacticSugarTest.sugar4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SyntacticSugarTest - 2018.12.03 at 10h 00m 42s.xml">
+      <configuration name="SyntacticSugarTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SyntacticSugarTest_sugar4 - 2018.12.03 at 10h 00m 57s.xml">
+      <configuration name="SyntacticSugarTest.sugar4" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GenericWildcardTest_upperWildcard - 2018.12.03 at 10h 55m 16s.xml">
+      <configuration name="GenericWildcardTest.upperWildcard" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreetingRobotTest_testGreetingRobot - 2018.12.23 at 12h 45m 58s.xml">
+      <configuration name="GreetingRobotTest.testGreetingRobot" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreetingRobotTest_testGreetingRobot - 2018.12.23 at 12h 46m 27s.xml">
+      <configuration name="GreetingRobotTest.testGreetingRobot" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreetingRobotTest_testGreetingRobot - 2018.12.23 at 12h 52m 10s.xml">
+      <configuration name="GreetingRobotTest.testGreetingRobot" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="59563000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21274298" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32875144" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35509735" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32875144" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32912844" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.30469644" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3298969" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="12" weight="0.77408254" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32875144" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32991362" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32991362" />
+      <window_info anchor="right" id="Maven" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31101513" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32875144" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28293243" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32875144" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32912844" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.30469644" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3298969" />
+      <window_info anchor="bottom" id="Dependency Viewer" order="12" weight="0.77408254" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32875144" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.32991362" />
+      <window_info anchor="right" id="Maven" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/target/test-classes/fre/radon/jvm/syntacticSugar/SyntacticSugarTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1370">
+          <folding>
+            <element signature="e#0#1514#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/loadClass/testInit/ClinitOrderTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/loadClass/classInit/Father.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/loadClass/classInit/Sub.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/loadClass/classInitTest/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/outOfMemoryError/RuntimeStringConstantPoolOOM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/outOfMemoryError/JavaVMStackSOF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/outOfMemoryError/HeapOOM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/outOfMemoryError/DirectMemoryOOM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/outOfMemoryError/JavaMethodAreaOOM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/outOfMemoryError/JavaVMStackOOM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/runtime/InvokeSuperStaticTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841">
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/outOfMemoryError/RuntimeConstantPoolBehaviorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/memoryAllocation/MemoryAllocationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="776">
+          <caret line="62" column="34" lean-forward="true" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/gc/MutualReferenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/gc/FinalizeEscapeGCTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_192/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="543" column="6" selection-start-line="543" selection-start-column="6" selection-end-line="543" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_192/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="1461" column="18" lean-forward="true" selection-start-line="1461" selection-start-column="18" selection-end-line="1461" selection-end-column="18" />
+          <folding>
+            <element signature="e#6283#6284#0" expanded="true" />
+            <element signature="e#6351#6352#0" expanded="true" />
+            <element signature="e#13713#13714#0" expanded="true" />
+            <element signature="e#13768#13769#0" expanded="true" />
+            <element signature="e#30670#30671#0" expanded="true" />
+            <element signature="e#30707#30708#0" expanded="true" />
+            <element signature="e#31007#31008#0" expanded="true" />
+            <element signature="e#31039#31040#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_192/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="1511" column="26" lean-forward="true" selection-start-line="1511" selection-start-column="26" selection-end-line="1511" selection-end-column="26" />
+          <folding>
+            <element signature="e#177013#177014#0" expanded="true" />
+            <element signature="e#177054#177055#0" expanded="true" />
+            <element signature="e#177353#177354#0" expanded="true" />
+            <element signature="e#177410#177411#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_192/src.zip!/java/util/TimSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="346" column="27" selection-start-line="346" selection-start-column="27" selection-end-line="346" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_192/src.zip!/java/lang/Comparable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="135" column="15" selection-start-line="135" selection-start-column="15" selection-end-line="135" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_192/src.zip!/com/sun/org/apache/xpath/internal/objects/XNodeSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="732" column="15" selection-start-line="732" selection-start-column="15" selection-end-line="732" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_192/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="463" column="69" selection-start-line="463" selection-start-column="69" selection-end-line="463" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_192/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="1215" column="19" lean-forward="true" selection-start-line="1215" selection-start-column="19" selection-end-line="1215" selection-end-column="19" />
+          <folding>
+            <element signature="e#46394#46395#0" expanded="true" />
+            <element signature="e#46458#46459#0" expanded="true" />
+            <element signature="e#47036#47037#0" expanded="true" />
+            <element signature="e#47092#47093#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/syntacticSugar/GenericWildcardTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/syntacticSugar/SyntacticSugarTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1711">
+          <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_192/src.zip!/java/nio/channels/AsynchronousServerSocketChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="81" column="16" selection-start-line="81" selection-start-column="15" selection-end-line="81" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/classload/ClassResolveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/collection/SublistTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/init/Father.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/classload/SychronizedClinitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/classload/ClinitOrderTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/classload/ClinitOrderTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/init/InitOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/init/Son.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_192/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="1703" column="16" selection-start-line="1703" selection-start-column="16" selection-end-line="1703" selection-end-column="16" />
+          <folding>
+            <element signature="e#66012#66013#0" expanded="true" />
+            <element signature="e#66038#66039#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_192/src.zip!/java/lang/ThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="73" column="15" selection-start-line="73" selection-start-column="15" selection-end-line="73" selection-end-column="15" />
+          <folding>
+            <element signature="e#4309#4310#0" expanded="true" />
+            <element signature="e#4336#4337#0" expanded="true" />
+            <element signature="e#7765#7766#0" expanded="true" />
+            <element signature="e#7802#7803#0" expanded="true" />
+            <element signature="e#8068#8069#0" expanded="true" />
+            <element signature="e#8137#8138#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/proxy/GreetingRobot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/proxy/GreetingRobotImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_192/jre/lib/rt.jar!/sun/reflect/ConstructorAccessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_192/src.zip!/java/lang/reflect/Constructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="92" column="41" selection-start-line="92" selection-start-column="41" selection-end-line="92" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_192/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="153" column="18" selection-start-line="153" selection-start-column="18" selection-end-line="153" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/proxy/GreetingRobotTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/sun/proxy/$Proxy0.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="45" column="57" lean-forward="true" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#2504#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/runtime/SlotReuseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/proxy/GreetingRobotInvocationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_192/src.zip!/java/lang/reflect/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="702" column="25" selection-start-line="702" selection-start-column="25" selection-end-line="702" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_192/jre/lib/rt.jar!/sun/misc/ProxyGenerator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <element signature="e#4536#4537#0" expanded="true" />
+            <element signature="e#4593#4594#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_192/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="406">
+          <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jvm.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4726776" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4726776" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>apache-log4j-2.10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4726776" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4726776" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>jvm</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4726776" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: cglib:cglib:3.2.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4726776" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4726776" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
