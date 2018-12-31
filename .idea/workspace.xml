@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d6ba5d1-edfb-4c01-b83e-a660bfa4d9b7" name="Default Changelist" comment="" />
+    <list default="true" id="2d6ba5d1-edfb-4c01-b83e-a660bfa4d9b7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,9 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/collection/sublist.java" />
-        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/collection/SubList.java" />
-        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/collection/Sublist.java" />
         <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/syntacticSugar/Sugar.java" />
         <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/byteCode/Son.java" />
         <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/collection/SublistTest.java" />
@@ -103,6 +102,9 @@
         <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/proxy/GreetingRobotImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/proxy/GreetingRobotTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/proxy/GreetingRobotInvocationHandler.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/../../nio/MultiPortEcho.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/nio/MultiPortEcho.java" />
       </list>
     </option>
   </component>
@@ -136,6 +138,62 @@
               <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
               <item name="jvm" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fre" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fre" type="462c0819:PsiDirectoryNode" />
+              <item name="radon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fre" type="462c0819:PsiDirectoryNode" />
+              <item name="radon" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fre" type="462c0819:PsiDirectoryNode" />
+              <item name="radon" type="462c0819:PsiDirectoryNode" />
+              <item name="jvm" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -154,7 +212,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.4726776" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/test/java/fre/radon/jvm/testByteCode/Son.java" />
   </component>
   <component name="RecentsManager">
@@ -352,7 +410,7 @@
       <workItem from="1545560123984" duration="132000" />
       <workItem from="1546096406152" duration="62000" />
       <workItem from="1546096593674" duration="140000" />
-      <workItem from="1546226374712" duration="1512000" />
+      <workItem from="1546226374712" duration="6663000" />
     </task>
     <servers />
   </component>
@@ -389,7 +447,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60536000" />
+    <option name="totallyTimeSpent" value="65687000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -414,11 +472,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32875144" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3283582" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3295063" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.32912844" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.30469644" />
+      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.3283582" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3455798" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3298969" />
       <window_info anchor="bottom" id="Dependency Viewer" order="12" weight="0.77408254" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32875144" />
@@ -467,47 +525,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/target/test-classes/fre/radon/jvm/syntacticSugar/SyntacticSugarTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1370">
-          <folding>
-            <element signature="e#0#1514#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/loadClass/testInit/ClinitOrderTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/loadClass/classInit/Father.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/loadClass/classInit/Sub.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/loadClass/classInitTest/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/outOfMemoryError/RuntimeStringConstantPoolOOM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/outOfMemoryError/JavaVMStackSOF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/outOfMemoryError/HeapOOM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/outOfMemoryError/DirectMemoryOOM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/outOfMemoryError/JavaMethodAreaOOM.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -849,6 +866,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jvm.iml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="58">
+            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_192/src.zip!/java/nio/channels/spi/SelectorProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="68" column="22" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_192/jre/lib/rt.jar!/sun/nio/ch/ServerSocketChannelImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_192/src.zip!/java/nio/channels/ServerSocketChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="219" column="40" lean-forward="true" selection-start-line="219" selection-start-column="13" selection-end-line="219" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_192/src.zip!/java/net/InetSocketAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="164" column="11" selection-start-line="164" selection-start-column="11" selection-end-line="164" selection-end-column="11" />
+          <folding>
+            <element signature="e#4750#4751#0" expanded="true" />
+            <element signature="e#4807#4808#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_192/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_192/src.zip!/java/nio/channels/SelectionKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="211" column="24" selection-start-line="211" selection-start-column="24" selection-end-line="211" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../nio/MultiPortEcho.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fre/radon/jvm/nio/MultiPortEcho.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-359">
+          <caret line="79" column="42" lean-forward="true" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="42" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
