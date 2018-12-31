@@ -1,93 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2d6ba5d1-edfb-4c01-b83e-a660bfa4d9b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_3_2_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_1_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_ant_ant_launcher_1_10_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_6_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/sun/proxy/$Proxy0.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jvm.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/classload/ClassResolveTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/classload/ClinitOrderTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/classload/ClinitOrderTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/classload/SychronizedClinitTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/collection/SublistTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/gc/FinalizeEscapeGCTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/gc/MutualReferenceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/init/Father.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/init/InitOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/init/Son.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/memoryAllocation/MemoryAllocationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/outOfMemoryError/DirectMemoryOOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/outOfMemoryError/HeapOOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/outOfMemoryError/JavaMethodAreaOOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/outOfMemoryError/JavaVMStackOOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/outOfMemoryError/JavaVMStackSOF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/outOfMemoryError/RuntimeConstantPoolBehaviorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/outOfMemoryError/RuntimeStringConstantPoolOOM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/proxy/GreetingRobot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/proxy/GreetingRobotImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/proxy/GreetingRobotInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/proxy/GreetingRobotTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/runtime/InvokeSuperStaticTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/runtime/SlotReuseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/syntacticSugar/GenericWildcardTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/fre/radon/jvm/syntacticSugar/SyntacticSugarTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/META-INF/jvm.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/Constants.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/classload/ClassResolveTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/classload/ClinitOrderTest1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/classload/ClinitOrderTest2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/classload/F.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/classload/Father.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/classload/Parent.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/classload/Son.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/classload/Sub.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/classload/SychronizedClinitTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/classload/SychronizedClinitTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/collection/SublistTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/gc/FinalizeEscapeGCTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/gc/MutualReferenceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/init/Father.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/init/InitOrder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/init/Son.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/memoryAllocation/MemoryAllocationTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/outOfMemoryError/DirectMemoryOOM.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/outOfMemoryError/HeapOOM.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/outOfMemoryError/JavaMethodAreaOOM.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/outOfMemoryError/JavaVMStackOOM.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/outOfMemoryError/JavaVMStackSOF.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/outOfMemoryError/RuntimeConstantPoolBehaviorTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/outOfMemoryError/RuntimeStringConstantPoolOOM.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/proxy/GreetingRobot.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/proxy/GreetingRobotImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/proxy/GreetingRobotInvocationHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/proxy/GreetingRobotTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/runtime/InvokeSuperStaticTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/runtime/SlotReuseTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/runtime/Sub.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/runtime/Super.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/syntacticSugar/GenericWildcardTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/syntacticSugar/GenericWildcardTest$Apple.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/syntacticSugar/GenericWildcardTest$Food.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/syntacticSugar/GenericWildcardTest$Fruit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/syntacticSugar/GenericWildcardTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/fre/radon/jvm/syntacticSugar/SyntacticSugarTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="2d6ba5d1-edfb-4c01-b83e-a660bfa4d9b7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -221,11 +135,6 @@
             <path>
               <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
               <item name="jvm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="jvm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -443,7 +352,7 @@
       <workItem from="1545560123984" duration="132000" />
       <workItem from="1546096406152" duration="62000" />
       <workItem from="1546096593674" duration="140000" />
-      <workItem from="1546226374712" duration="539000" />
+      <workItem from="1546226374712" duration="1512000" />
     </task>
     <servers />
   </component>
@@ -480,7 +389,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59563000" />
+    <option name="totallyTimeSpent" value="60536000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
