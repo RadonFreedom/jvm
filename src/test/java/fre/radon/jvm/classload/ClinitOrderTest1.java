@@ -1,8 +1,8 @@
 package fre.radon.jvm.classload;
 
 /**
- * Parent's static block will be initialized before Sub's, since Parent will be
- * initialized before Sub during class-loading in the Method-Area.
+ * 测试JVM的clinit方法。
+ * 因为父类先于子类被类加载，所以父类的static代码块先于子类被执行。
  *
  * @author Radon Freedom
  */

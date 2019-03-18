@@ -1,4 +1,4 @@
-package fre.radon.jvm.outOfMemoryError;
+package fre.radon.jvm.runtime;
 
 /**
  * @author Radon Freedom

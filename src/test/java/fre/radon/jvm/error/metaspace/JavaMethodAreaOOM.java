@@ -1,4 +1,4 @@
-package fre.radon.jvm.outOfMemoryError;
+package fre.radon.jvm.error.metaspace;
 
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
